@@ -4,6 +4,33 @@ body {
   margin: 0;
 }
 
-label {
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
   display: block;
+}
+
+input[type="submit"] {
+  margin: 20px 170px 0 170px;
+}
+
+label {
+  display:block;
+  margin: 20px;
+}
+
+h1, p {
+  text-align: center;
+  margin: 1em auto;
+}
+
+input[type="radio"] {
+  margin-left: -1px;
+}
+
+input[type="checkbox"] {
+  margin-left: -1px;
 }
